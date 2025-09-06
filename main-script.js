@@ -2,7 +2,7 @@
 // function which takes user to home page
 function back()
 {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 
 // updating day title of main page
