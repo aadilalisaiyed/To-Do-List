@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(home-page.jpg);
+    background-size: cover;
+}
+header{
+    width: 100vw;
+}
+h1{
+    font-family: "Big Caslon";
+    font-style: italic;
+    text-align: center;
+    padding:8px;
+    background-color: rgb(25, 167, 0);
+    width:100%;
+}
+main{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    margin-top:40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    width:80%;
+}
+
+.box{
+    margin:5px;
+    min-height: 120px;
+    min-width: 250px;
+    border:3px solid rgb(38, 144, 0);
+    border-radius:8px;
+    background-color: rgb(255, 255, 255);
+
+}
+.box h2{
+    text-align: center;
+    padding: 14px 0px;
+    font-weight: lighter;
+}
+.box:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.box:active{
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.3);
+    background-color: rgba(165, 255, 165, 0.36);
+}
+.task-preview{
+    padding-top: 10px;
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
